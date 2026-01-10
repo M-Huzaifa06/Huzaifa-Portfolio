@@ -59,7 +59,7 @@ export default function Contact() {
           {/* WhatsApp */}
           <ContactCard
             title="WhatsApp"
-            link="https://wa.me/923286152230"
+            link="https://wa.me/+923286152230"
             text="Chat on WhatsApp"
             delay="250"
           >
