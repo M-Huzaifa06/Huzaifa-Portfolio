@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 //from-black to-white bg-linear-to-r
 function Profile() {
   return (
-    <div className="container bg-black h-auto sm:h-screen flex flex-col sm:flex-row">
+    <div className="container bg-black h-screen flex flex-col sm:flex-row">
       <motion.div
       initial={{ x: -100, opacity: 0 }}   // start from left
       animate={{ x: 0, opacity: 1 }}      // move to original position
