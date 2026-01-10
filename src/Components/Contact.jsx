@@ -5,7 +5,7 @@ export default function Contact() {
         
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="text-bold tracking-widest uppercase text-white mb-4 mx-auto border rounded-3xl w-[33vw] sm:w-[15vw] py-2 bg-linear-to-r from-indigo-400 to-purple-500">
+          <div className="text-bold tracking-widest uppercase text-white mb-4 mx-auto border rounded-3xl w-[35vw] sm:w-[15vw] py-2 bg-linear-to-r from-indigo-400 to-purple-500">
             Get In Touch
           </div>
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">

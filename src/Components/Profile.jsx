@@ -8,14 +8,14 @@ function Profile() {
       initial={{ x: -100, opacity: 0 }}   // start from left
       animate={{ x: 0, opacity: 1 }}      // move to original position
       transition={{ duration: 2, ease: "easeIn" }}
-      className="content text-white [text-shadow:1px_1px_3px_rgba(0,0,0,0.8)] 
-                 w-2/3 flex flex-col justify-center gap-6 ml-10 text-center"
+      className="content h-[70vh] sm:h-auto text-white [text-shadow:1px_1px_3px_rgba(0,0,0,0.8)] 
+                 sm:w-2/3 flex flex-col justify-center gap-6 ml-10 text-center"
     >
-      <h1 className="text-5xl font-extrabold">
+      <h1 className="text-4xl sm:text-5xl font-extrabold">
         Hi, I am Web Developer.
       </h1>
 
-      <p className="text-2xl">
+      <p className="text-xl sm:text-2xl">
         Full-Stack Developer | Designer
       </p>
 
@@ -38,7 +38,7 @@ function Profile() {
       transition={{ duration: 2, ease: "easeIn" }}
       className="image"
       >
-        <img src={image} className="img h-full mx-auto" alt="" />
+        <img src={image} className="img h-[30vh] sm:h-full mx-auto " alt="" />
       </motion.div>
 
     </div>
