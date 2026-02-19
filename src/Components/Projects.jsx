@@ -1,9 +1,17 @@
 import img from '../assets/Screenshot1.png'
 import img2 from '../assets/Screenshot2.png'
 import img3 from '../assets/Screenshot4.png'
+import img4 from '../assets/Screenshot3.png'
+import img5 from '../assets/Screenshot5.png'
 
 const Projects = () => {
   const projects = [
+    { 
+      title: 'Ecommerce-Website', 
+      desc: 'Designed and developed a responsive eCommerce website using React.js and Tailwind CSS. Implemented dynamic cart functionality, product management, and a modern user interface to deliver a smooth online shopping experience.', 
+      link: 'https://ecommerce-website-omega-weld.vercel.app/', 
+      photo: img5 
+    },
     { 
       title: 'Spotify-Clone', 
       desc: 'A fully responsive Spotify Clone featuring a modern UI, hover animations, music cards, smooth scrolling, and an interactive audio player built using HTML, CSS, and JavaScript.', 
@@ -21,6 +29,12 @@ const Projects = () => {
       desc: 'A modern and responsive Todo List web application built using React.js and Tailwind CSS.', 
       link: 'https://todo-list-pearl-eta.vercel.app/', 
       photo: img3 
+    },
+    { 
+      title: 'Weather-App', 
+      desc: 'A responsive Weather Application built using React.js and API integration. It allows users to search any city and view real-time weather. Designed with a clean and modern UI for a smooth user experience.', 
+      link: 'https://weather-app-nine-xi-62.vercel.app/', 
+      photo: img4 
     },
   ];
 
