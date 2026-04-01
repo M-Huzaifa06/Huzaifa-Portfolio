@@ -1,13 +1,19 @@
+import wordpressLogo from "../assets/wordpress-2.svg";
+
 const Skills = () => {
   const skills = [
+    {
+      name: "WordPress",
+      logo: wordpressLogo,
+    },
     {
       name: "React",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     },
-    {
-      name: "JavaScript",
-      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    },
+    // {
+    //   name: "JavaScript",
+    //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    // },
     {
       name: "Tailwind CSS",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
@@ -31,9 +37,9 @@ const Skills = () => {
 
         {/* Section Header */}
         <div className="text-center mb-14 sm:mb-16">
-          <p className="text-indigo-400 text-sm uppercase tracking-widest mb-3">
+          {/* <p className="text-indigo-400 text-sm uppercase tracking-widest mb-3">
             Expertise
-          </p>
+          </p> */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold">
             Technical Skills
           </h2>

@@ -3,9 +3,16 @@ import img2 from '../assets/Screenshot2.png'
 import img3 from '../assets/Screenshot4.png'
 import img4 from '../assets/Screenshot3.png'
 import img5 from '../assets/Screenshot5.png'
+import img6 from '../assets/Construction.png'
 
 const Projects = () => {
   const projects = [
+    { 
+      title: 'Construction-Website', 
+      desc: 'Designed and developed a responsive Construction website using WordPress', 
+      link: 'https://dev-general-contractor.pantheonsite.io/', 
+      photo: img6 
+    },
     { 
       title: 'Ecommerce-Website', 
       desc: 'Designed and developed a responsive eCommerce website using React.js and Tailwind CSS. Implemented dynamic cart functionality, product management, and a modern user interface to deliver a smooth online shopping experience.', 
@@ -39,7 +46,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-[#1f1f1f] text-white">
+    <section id="projects" className="py-20 px-6 bg-[#0B0F19] text-white">
       <div className="max-w-7xl mx-auto text-center">
         
         <h2 className="text-3xl sm:text-4xl font-bold mb-12">

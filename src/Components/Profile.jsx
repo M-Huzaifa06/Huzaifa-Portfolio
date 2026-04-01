@@ -23,7 +23,7 @@ function Profile() {
 
         <h2
           className="mt-4 text-4xl sm:text-5xl md:text-6xl font-bold 
-                 bg-gradient-to-r from-indigo-400 to-purple-500
+                 bg-linear-to-r from-indigo-400 to-purple-500
                  bg-clip-text text-transparent"
         >
           Modern Web Experiences
@@ -40,7 +40,7 @@ function Profile() {
           <a
             href="#projects"
             className="px-8 py-3 rounded-full text-sm font-medium
-                 bg-gradient-to-r from-indigo-500 to-purple-500
+                 bg-linear-to-r from-indigo-500 to-purple-500
                  hover:scale-105 hover:shadow-lg
                  hover:shadow-indigo-500/40
                  transition duration-300"

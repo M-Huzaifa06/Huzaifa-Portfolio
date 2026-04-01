@@ -12,7 +12,7 @@ const Stats = () => {
         <h3 className="text-3xl sm:text-4xl font-semibold text-white mb-2">
           <Counter target={95} suffix="%" />
         </h3>
-        <p className="text-sm bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+        <p className="text-sm bg-linear-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
           Average Productivity Gain
         </p>
       </div>
@@ -25,7 +25,7 @@ const Stats = () => {
         <h3 className="text-3xl sm:text-4xl font-semibold text-white mb-2">
           <Counter target={200} suffix="+" />
         </h3>
-        <p className="text-sm bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+        <p className="text-sm bg-linear-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
           Solutions Deployed
         </p>
       </div>
@@ -38,7 +38,7 @@ const Stats = () => {
         <h3 className="text-3xl sm:text-4xl font-semibold text-white mb-2">
           <Counter target={100} suffix="%" />
         </h3>
-        <p className="text-sm bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+        <p className="text-sm bg-linear-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
           Happy Clients
         </p>
       </div>
