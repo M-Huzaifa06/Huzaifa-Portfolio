@@ -47,7 +47,7 @@ const About = () => {
           className="text-white font-medium"
           whileHover={{ scale: 1.1 }}
         >
-          Tailwind CSS
+          WordPress
         </motion.span>
         , focused on building responsive, modern, and high-performance
         websites.
