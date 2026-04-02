@@ -43,7 +43,7 @@ const Header = () => {
       </nav>
 
       {isOpen && (
-        <div className="md:hidden bg-gray-800 px-6 py-4">
+        <div className="md:hidden backdrop-blur-md bg-white/5 px-6 py-4">
           <a href="#hero" className="block py-2 hover:text-blue-400">Home</a>
           <a href="#about" className="block py-2 hover:text-blue-400">About</a>
           <a href="#skills" className="block py-2 hover:text-blue-400">Skills</a>
