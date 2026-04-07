@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
     <footer className="bg-[#0B0F19] text-gray-300 pt-12 pb-6 px-6">
-      <div className="max-w-6xl mx-auto grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+      <div className="max-w-6xl mx-auto grid gap-10 md:grid-cols-2 lg:grid-cols-4 text-center md:text-left">
         
         {/* Brand */}
-        <div>
+        <div className="flex flex-col items-center md:items-start">
           <h2 className="text-2xl font-bold text-white mb-4">
             3I TECH SOLUTIONS
           </h2>
@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
 
         {/* Links */}
-        <div>
+        <div className="flex flex-col items-center md:items-start">
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-2">
             <li><a href="#hero" className="hover:text-indigo-600 transition">Home</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         {/* Services */}
-        <div>
+        <div className="flex flex-col items-center md:items-start">
           <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
           <ul className="space-y-2">
             <li>Web Design</li>
@@ -37,14 +37,14 @@ const Footer = () => {
         </div>
 
         {/* Contact */}
-        <div>
+        <div className="flex flex-col items-center md:items-start">
           <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
           <p className="text-sm">Gujranwala, Pakistan</p>
           <p className="text-sm">Email: mughalhuzaifa3486@gmail.com</p>
-          <p className="text-sm mb-4">Phone: +92 XXX XXX XXXX</p>
+          <p className="text-sm mb-4">Phone: +92 328 615 2230</p>
 
           {/* Social Icons */}
-          <div className="flex gap-4 mt-3">
+          <div className="flex gap-4 mt-3 justify-center md:justify-start">
             <a href="#" className="hover:text-indigo-600 transition">Facebook</a>
             <a href="#" className="hover:text-indigo-600 transition">LinkedIn</a>
             <a href="https://www.instagram.com/3i_tech_solutions/" className="hover:text-indigo-600 transition">Instagram</a>
