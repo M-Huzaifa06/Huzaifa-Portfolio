@@ -4,6 +4,7 @@ import img3 from "../assets/Screenshot4.png";
 import img4 from "../assets/Screenshot3.png";
 import img5 from "../assets/Screenshot5.png";
 import img7 from "../assets/Screenshot6.png";
+import img8 from "../assets/Screenshot7.png";
 import img6 from "../assets/Construction.png";
 
 const Projects = () => {
@@ -13,6 +14,12 @@ const Projects = () => {
       desc: "Designed and developed a responsive Watches Store website using WordPress",
       link: "https://dev-watches-site.pantheonsite.io/",
       photo: img7,
+    },
+    {
+      title: "Concretor-Website",
+      desc: "Designed and developed a responsive Concretor website using WordPress",
+      link: "https://dev-construction-contractors.pantheonsite.io/",
+      photo: img8,
     },
     {
       title: "Construction-Website",
