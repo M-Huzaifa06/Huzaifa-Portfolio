@@ -64,21 +64,21 @@ const Footer = () => {
           </div>
           
           {/* Newsletter Subscription */}
-          <div className="flex-1 max-w-sm">
+          <div className="flex-1 max-w-sm w-full">
             <h3 className="text-lg font-semibold text-white mb-4">Subscribe</h3>
-            <div className="flex flex-col gap-2">
-              <div className="flex gap-2">
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-col sm:flex-row gap-3">
                 <input 
                   type="email" 
                   placeholder="Enter your email" 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   onKeyPress={handleKeyPress}
-                  className="flex-1 px-4 py-3 rounded-lg border border-gray-600 bg-gray-900 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-600 transition"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-900 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-600 transition"
                 />
                 <button 
                   onClick={handleSubscribe}
-                  className={`px-6 py-3 rounded-lg font-medium transition ${
+                  className={`w-full sm:w-auto px-6 py-3 rounded-lg font-medium transition ${
                     subscribed 
                       ? 'bg-green-600 hover:bg-green-700' 
                       : 'bg-indigo-600 hover:bg-indigo-700 text-white'
