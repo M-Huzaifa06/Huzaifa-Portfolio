@@ -7,7 +7,7 @@ function Profile2() {
     <section className="relative min-h-screen bg-[#0b0b0f] text-white overflow-hidden flex items-center">
       
       {/* Background Glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] 
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-150 h-150 
                       bg-indigo-500/20 blur-[150px] rounded-full pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
@@ -27,7 +27,7 @@ function Profile2() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
               Designing & Building
               <br />
-              <span className="bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
                 Modern Web Experiences
               </span>
             </h1>
@@ -43,7 +43,7 @@ function Profile2() {
               <a
                 href="#projects"
                 className="px-6 py-3 rounded-full text-sm font-medium
-                           bg-gradient-to-r from-indigo-500 to-purple-500
+                           bg-linear-to-r from-indigo-500 to-purple-500
                            hover:opacity-90 transition duration-300
                            shadow-lg shadow-indigo-500/30"
               >
@@ -74,7 +74,7 @@ function Profile2() {
             <div className="relative w-full max-w-md lg:max-w-full ">
 
               {/* Creative Glow Behind Image */}
-              <div className="absolute inset-0 bg-gradient-to-tr 
+              <div className="absolute inset-0 bg-linear-to-tr 
                               from-indigo-500/30 to-purple-500/30 
                               blur-3xl rounded-full" />
 
