@@ -57,7 +57,8 @@ const Footer = () => {
         {/* Top Section - Brand & Description */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-12 mb-16">
           <div className="flex-1">
-            <h2 className="text-3xl font-bold text-white mb-3">3I TECH SOLUTIONS</h2>
+            {/* <h2 className="text-3xl font-bold text-white mb-3">3I TECH SOLUTIONS</h2> */}
+            <h2 className="text-3xl font-bold text-white mb-3">Huzaifa Mughal</h2>
             <p className="text-gray-400 max-w-md">
               We build modern, high-converting websites for businesses that want to stand out and generate more leads.
             </p>

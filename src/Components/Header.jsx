@@ -24,7 +24,8 @@ const Header = () => {
       ${showHeader ? "translate-y-0" : "-translate-y-full"}`}
     >
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">3I TECH SOLUTIONS</h1>
+        {/* <h1 className="text-2xl font-bold">3I TECH SOLUTIONS</h1> */}
+        <h1 className="text-2xl font-bold">Huzaifa Mughal</h1>
 
         <div className="hidden md:flex space-x-6">
           <a href="#hero" className="hover:text-blue-400">Home</a>

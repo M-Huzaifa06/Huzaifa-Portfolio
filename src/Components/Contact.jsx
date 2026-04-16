@@ -47,7 +47,8 @@ export default function Contact() {
 
           <ContactCard
             title="Instagram"
-            link="https://www.instagram.com/3i_tech_solutions/"
+            // link="https://www.instagram.com/3i_tech_solutions/"
+            link="https://www.instagram.com/mughalhuzaifa3486/"
             text="Follow on Instagram"
             delay="150"
           >
@@ -70,7 +71,8 @@ export default function Contact() {
           <ContactCard
             title="LinkedIn"
             link="#"
-            text="Connect on LinkedIn"
+            text="LinkedIn is currently unavailable"
+            // text="Connect on LinkedIn"
             delay="200"
           >
             <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
