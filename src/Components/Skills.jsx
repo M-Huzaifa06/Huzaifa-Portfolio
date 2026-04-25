@@ -10,7 +10,7 @@ const Skills = () => {
     { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   ];
 
-  // Container (stagger effect)
+
   const containerVariants = {
     hidden: {},
     visible: {

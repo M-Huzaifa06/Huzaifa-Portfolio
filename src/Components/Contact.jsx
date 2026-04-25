@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16">
-          {/* Badge */}
+          
           <div
             className="inline-block text-xs sm:text-sm font-semibold tracking-widest uppercase 
                           px-6 py-2 rounded-full 

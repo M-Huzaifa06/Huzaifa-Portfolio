@@ -3,18 +3,13 @@ import img2 from "../assets/Screenshot2.png";
 import img3 from "../assets/Screenshot4.png";
 import img4 from "../assets/Screenshot3.png";
 import img5 from "../assets/Screenshot5.png";
+import img6 from "../assets/Construction.png";
 import img7 from "../assets/Screenshot6.png";
 import img8 from "../assets/Screenshot7.png";
-import img6 from "../assets/Construction.png";
+import img9 from "../assets/Screenshot8.png";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Watches-Store",
-      desc: "Designed and developed a responsive Watches Store website using WordPress",
-      link: "https://dev-watches-site.pantheonsite.io/",
-      photo: img7,
-    },
     {
       title: "Concretor-Website",
       desc: "Designed and developed a responsive Concretor website using WordPress",
@@ -22,10 +17,22 @@ const Projects = () => {
       photo: img8,
     },
     {
+      title: "Watches-Store",
+      desc: "Designed and developed a responsive Watches Store website using WordPress",
+      link: "https://dev-watches-site.pantheonsite.io/",
+      photo: img7,
+    },
+    {
       title: "Construction-Website",
       desc: "Designed and developed a responsive Construction website using WordPress",
       link: "https://dev-general-contractor.pantheonsite.io/",
       photo: img6,
+    },
+    {
+      title: "MHM-Store",
+      desc: "Designed and developed a responsive eCommerce website using WordPress.",
+      link: "https://dev-mhm-store.pantheonsite.io/",
+      photo: img9,
     },
     {
       title: "Ecommerce-Website",
